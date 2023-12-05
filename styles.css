@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://source.unsplash.com/random');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+font{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.goog-te-gadget {
+    font-family: arial;
+    font-size: 12px;
+    color: #000;
+    white-space: nowrap;
+}
+
+.advice-container {
+    text-align: center;
+    padding: 10px 30px;
+    margin: 7px 13px;
+    border-radius: 24px;
+    background-color: #000000;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.translate{
+    background-color: #fff;
+    padding: 10px 8px;
+    border-radius: 8px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #001fa8; /* Blue background color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
